@@ -25,6 +25,8 @@ PACKAGES = [
     "qtconsole",
     "ipykernel",
     "IPython",
+    "matplotlib",
+    "numpy",
 ]
 
 
@@ -59,6 +61,7 @@ SETUP_REQUIRES = [
     "qtconsole",
     "pygments",
     "pyzmq",
+    "matplotlib",
 ]
 
 SETUP_EXTRA = [
